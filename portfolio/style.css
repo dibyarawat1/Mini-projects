@@ -1,0 +1,19 @@
+*{
+    margin:0px;
+    padding:0px;
+    background-color: #DDD0C8;
+}
+.Name{
+    display:flex;
+    border-bottom:1px solid gray;
+    justify-content: center;
+    box-sizing: border-box;
+    height:70px;
+    padding:15px;
+     box-shadow: 10px 20px 50px brown;
+}
+  .Introduction{
+    display:flex;
+    justify-content: center;
+    
+  }
