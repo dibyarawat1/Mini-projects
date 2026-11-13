@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+      body{
+        background: url(Image.jpg) no-repeat center center fixed;
+        background-size:100% 100%;
+      }
+      .container{
+        color:white;
+        border:px solid gray;
+        position:absolute;
+        top:30%;
+        left:8%;
+      }
+      .container h1{
+        display:inline-block;
+        font-size:40px;
+        color:pink;
+        border-bottom:5px solid purple;
+        margin-bottom:43px;;
+        padding:13px 0px;
+      }
+      .box{
+        width:100%;
+      }
+      .box input{
+        background:pink;
+        width:100%;
+        border:none;
+        outline:none;
+        color:purple;
+        height: 25px;
+        margin:2px;
+        padding:2px;
+        text-align: center;
+      }
+      .btn{
+        cursor:pointer;
+        width:50%;
+        font-weight:bold;
+        outline:none;
+        /* align-content: center; */
+        margin-top:5%;
+        margin-left:30%;
+        border-radius:2%;
+       padding:2%;
+      }
+      .btn:hover{
+          
+         background-color:brown;
+        
+      }
+      #heading{
+        text-align: center;
+        color:white;
+      }
+    </style>
+</head>
+<body>
+
+    <h1 id="heading">Perfect place for  your Blogs </h1>
+    <form class="container">
+        <h1>Sign Up/ Login In</h1>
+        <div class="box">
+           <input type="email" name="email" id="email" placeholder="enter your email">
+        </div>
+        <div class="box">
+         <input type="password" name=" passokay word" id="password" placeholder="Enter your passowrd">
+        </div>
+        <button class="btn" type="submit">Sign In</button>
+    </form>
+</body>
+</html>
